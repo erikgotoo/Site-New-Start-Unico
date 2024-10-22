@@ -1,8 +1,8 @@
 :root{
     --color-dark: #000;
     --color-white: #fff;
-    --color-unico: #1821a3;
-    --color-fundo: #466ce9;
+    --color-unico: #530CAA;
+    --color-fundo: #E3E7ED;
     --color-midias: #466ce9;
     --color-escolha: #60cdff;
     
@@ -13,15 +13,19 @@
 }
 
 .bg-fundo{
-    background-color: #466ce9;
+    background-color: var(--color-fundo);
 }
 
 .bg-midias{
-    background-color: #4888b3;
+    background-color: var(--color-midias);
 }
 
 .escolha{
-    color:#60cdff;
+    color:var(--color-escolha);
+}
+
+.titulo{
+    color: var(--color-unico);
 }
 
 .btn:hover, a:hover{
