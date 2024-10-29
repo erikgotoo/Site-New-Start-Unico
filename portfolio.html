@@ -50,85 +50,68 @@
     </div>
 
     <div class="container-fluid bg-unico p-5 my-5">
-
         <div class="row">
             <div class="col p-5">
                 <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2003">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(1)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">19/08</p>
                         </div>
                     </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2004">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(2)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">27/08</p>
                         </div>
                     </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2005">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(3)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">12/09</p>
                         </div>
                     </div>
-                    <div class="timeline-step">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2010">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(4)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">21/09</p>
                         </div>
                     </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2020">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(5)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">30/10</p>
                         </div>
                     </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2020">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(6)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">01/11</p>
                         </div>
                     </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2020">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(7)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">17/11</p>
                         </div>
                     </div>
-                    <div class="timeline-step mb-0">
-                        <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top"
-                            title="" data-content="And here's some amazing content. It's very engaging. Right?"
-                            data-original-title="2020">
-                            <a href="">
+                    <div class="timeline-step" onclick="updateContent(8)">
+                        <div class="timeline-content">
+                            <a href="#">
                                 <div class="inner-circle"></div>
                             </a>
                             <p class="h6 mt-3 mb-1 text-light">28/11</p>
@@ -141,17 +124,18 @@
         <div class="container">
             <div class="row text-center justify-content-center mb-4">
                 <div class="col-xl-6 col-lg-8">
-                    <h3 class="font-bold text-light">20/09</h3>
-                    <p class="fs-6 my-3 text-light">Nessa data realizamos uma atividade sobre HTML e CSS para aprender
-                        sobre "positions" Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nobis quas
+                    <h3 class="font-bold text-light" id="selected-date">19/08</h3>
+                    <p class="fs-6 my-3 text-light" id="selected-content">"Nessa data realizamos uma atividade sobre HTML
+                        e CSS para aprender
+                        sobre "positions". Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nobis quas
                         incidunt ex totam assumenda voluptatum ratione id omnis itaque minus deleniti, pariatur tempora
-                        exercitationem, molestias asperiores illo cumque at.</p>
+                        exercitationem, molestias asperiores illo cumque at."</p>
                 </div>
             </div>
         </div>
 
         <div class="container mb-5">
-            <img src="./imagens/AULA 1.png" alt="" width="1280px" height="auto">
+            <img id="selected-image" src="./imagens/AULA1.png" alt="" width="1280px" height="auto" class="img-fluid">
         </div>
     </div>
 

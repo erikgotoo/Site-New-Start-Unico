@@ -45,7 +45,7 @@
     <div class="container-fluid d-flex flex-column justify-content-center align-items-center bg-unico my-5 p-5 gap-5">
         <h2 class="text-light">Aula Comunicação</h2>
         <iframe width="80%" height="820" class="rounded-4"
-            src="https://www.youtube.com/embed/zirEdxsWosc?si=ayVU-67JBIF1hvUY&controls=1&autoplay=1&loop=1&mute=1&start=1"
+            src="https://www.youtube.com/embed/Dqr9oaqUsLQ?si=ayVU-67JBIF1hvUY&controls=1&autoplay=1&loop=1&mute=0&start=1"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -107,44 +107,58 @@
 
         </div>
     </div>
-    <div class="container titulo d-flex flex-column p-5 gap-2 rounded-5 my-5 border border-secondary">
+    <div class="container titulo d-flex flex-column p-5 gap-5 rounded-5 my-5 shadow-lg bg-light">
         <h2 class="text-center mb-5">Vamos praticar?</h2>
         
-        <h5>1- Qual é a definição de comunicação?</h5>
-        <p>a- O ato de falar apenas</p>
-        <p>b- A troca de informações entre indivíduos</p>
-        <p>c- O uso de tecnologia para transmitir mensagens</p>
-        <p>d- A capacidade de escutar</p>
-
-        <h5>2- Quais são os principais tipos de comunicação?</h5>
-        <p>a- Verbal, escrita e digital</p>
-        <p>b- Verbal, não verbal e visual</p>
-        <p>c- Oral, escrita e auditiva</p>
-        <p>d- Formal e informal</p>
-
-        <h5>3- Qual dos seguintes é um elemento da comunicação?</h5>
-        <p>a- Intenção</p>
-        <p>b- Ruído</p>
-        <p>c- Emoção</p>
-        <p>d- Ação</p>
-
-        <h5>4- Qual barreira à comunicação é causada por diferenças culturais?</h5>
-        <p>a- Intenção</p>
-        <p>b- Ruído</p>
-        <p>c- Emoção</p>
-        <p>d- Ação</p>
-
-        <h5>5- Para uma comunicação eficaz, é importante:</h5>
-        <p>a- Intenção</p>
-        <p>b- Ruído</p>
-        <p>c- Emoção</p>
-        <p>d- Ação</p>
-
-        <div class="d-flex justify-content-center mt-3 border-top border-secondary">
-            <a href="" class="btn btn-danger mt-5">Submit</a>
+        <div class="question">
+            <h5>1. Qual atributo é usado para especificar o URL de um link?</h5>
+            <input type="radio" name="q1" value="a"> a) href<br>
+            <input type="radio" name="q1" value="b"> b) src<br>
+            <input type="radio" name="q1" value="c"> c) link<br>
+            <input type="radio" name="q1" value="d"> d) url<br>
         </div>
+        
+        
+        <div class="question">
+            <h5>2. Qual propriedade CSS é usada para mudar a cor do texto?</h5>
+            <input type="radio" name="q2" value="a"> a) color<br>
+            <input type="radio" name="q2" value="b"> b) font-color<br>
+            <input type="radio" name="q2" value="c"> c) text-color<br>
+            <input type="radio" name="q2" value="d"> d) bgcolor<br>
+        </div>
+        
+        <div class="question">
+            <h5>3. Qual dos seguintes métodos é usado para adicionar um elemento ao final de um array?</h5>
+            <input type="radio" name="q3" value="a"> a) push()<br>
+            <input type="radio" name="q3" value="b"> b) pop()<br>
+            <input type="radio" name="q3" value="c"> c) shift()<br>
+            <input type="radio" name="q3" value="d"> d) unshift()<br>
+        </div>
+        
+        <div class="question">
+            <h5>4. Qual unidade de medida é relativa ao tamanho da fonte do elemento pai?</h5>
+            <input type="radio" name="q4" value="a"> a) px<br>
+            <input type="radio" name="q4" value="b"> b) pt<br>
+            <input type="radio" name="q4" value="c"> c) em<br>
+            <input type="radio" name="q4" value="d"> d) cm<br>
+        </div>
+        
+        <div class="question">
+            <h5>5. Como você pode declarar uma variável em JavaScript?</h5>
+            <input type="radio" name="q5" value="a"> a) var minhaVariavel<br>
+            <input type="radio" name="q5" value="b"> b) let minhaVariavel<br>
+            <input type="radio" name="q5" value="c"> c) const minhaVariavel<br>
+            <input type="radio" name="q5" value="d"> d) Todas as anteriores<br>
+        </div>
+        
+        <div id="resultado" class="d-flex justify-content-center"></div>
+        <div class="d-flex justify-content-center border-top border-secondary">
+            <button class="btn btn-danger mt-5" onclick="submitAnswers()">Submit</button>
+        </div>
+        
+        
     </div>
-
+    
     <div class="container-fluid bg-unico text-light justify-content-center">
         <footer class="py-2">
             <div class="row">
@@ -197,7 +211,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    <script src="./js/script.js"></script>
+    
 </body>
 
 </html>
