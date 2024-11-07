@@ -24,6 +24,10 @@
     color:var(--color-escolha);
 }
 
+.teste{
+    color: var(--color-unico);
+}
+
 .titulo{
     color: var(--color-unico);
 }
@@ -64,7 +68,6 @@
     align-items: center;
     justify-content: center;
     background-color: var(--color-white)
-    
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
@@ -105,3 +108,4 @@
     height: 80px;
     margin: 8px;
 }
+

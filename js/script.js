@@ -1,7 +1,5 @@
 // FUNCOES UTILIZADAS NO PORTFOLIO
-
 let timelineData = {};
-
 // Carrega os dados do JSON
 fetch('./data/timelineData.json')
     .then(response => response.json())
