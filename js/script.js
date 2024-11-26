@@ -4,15 +4,16 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth
 
 let timelineData = {};
 
-fetch('./data/timelineData.json')
+fetch('../data/timelineData.json')
     .then(response => response.json())
     .then(data => {
-        timelineData = data; 
+        timelineData = data;
+        updateContent(0);
     })
     .catch(error => console.error('Erro ao carregar os dados:', error));
 
-function updateContent(day) {
-    const selectedData = timelineData[day];
+function updateContent(id) {
+    const selectedData = timelineData[id];
     if (selectedData) {
         document.getElementById("selected-date").innerText = selectedData.date;
         document.getElementById("selected-content").innerText = selectedData.content;
@@ -69,7 +70,8 @@ function updateSoftScore(user, newScore, id) {
     const userRef = doc(db, "scores", user.uid);
 
     const updatedScores = {
-        [`user.singleScores.${id}`]: newScore
+        [`user.singleScores.${id}`]: newScore,
+        [`user.didIt.${id}`]: 1
     };
 
     updateDoc(userRef, updatedScores)
@@ -83,3 +85,4 @@ function updateSoftScore(user, newScore, id) {
 
 window.updateContent = updateContent;
 window.submitAnswers = submitAnswers;
+window.updateContent = updateContent;

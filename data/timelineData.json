@@ -1,42 +1,42 @@
 {
     "1": {
-        "date": "19/08",
-        "content": "Nessa data realizamos uma atividade sobre HTML e CSS para aprender sobre positions. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse nobis quas incidunt ex totam assumenda voluptatum ratione id omnis itaque minus deleniti, pariatur tempora exercitationem, molestias asperiores illo cumque at.",
+        "date": "22/08",
+        "content": "Exel básico.",
         "image": "./imagens/AULA1.png"
     },
     "2": {
-        "date": "27/08",
-        "content": "Nessa data criamos uma plataforma ficticia de marketing",
+        "date": "26/08",
+        "content": "Gráficos com exel.",
         "image": "./imagens/AULA2.png"
     },
     "3": {
-        "date": "12/09",
-        "content": "Conteúdo para 12/09: Resumo da atividade.",
-        "image": "./imagens/imagem3.png"
+        "date": "05/09",
+        "content": "Introdução ao HTML.",
+        "image": "./imagens/AULA3.png"
     },
     "4": {
-        "date": "21/09",
-        "content": "Conteúdo para 21/09: Aprendizados sobre HTML e CSS.",
-        "image": "./imagens/imagem4.png"
+        "date": "15/09",
+        "content": "Atividade sobre HTML e CSS para aprender sobre positions.",
+        "image": "./imagens/AULA4.png"
     },
     "5": {
-        "date": "30/10",
-        "content": "Conteúdo para 30/10: Revisão de conceitos.",
-        "image": "./imagens/imagem5.png"
+        "date": "21/10",
+        "content": "Aula introdutória ao JavaScript com algoritimo de sorteio.",
+        "image": "./imagens/AULA5.png"
     },
     "6": {
-        "date": "01/11",
-        "content": "Conteúdo para 01/11: Discussão em grupo.",
-        "image": "./imagens/imagem6.png"
+        "date": "24/10",
+        "content": "Primeiro site.",
+        "image": "./imagens/AULA6.png"
     },
     "7": {
-        "date": "17/11",
-        "content": "Conteúdo para 17/11: Preparação para o final do curso.",
-        "image": "./imagens/imagem7.png"
+        "date": "01/11",
+        "content": "Site fictício sobre marketing",
+        "image": "./imagens/AULA7.png"
     },
     "8": {
-        "date": "28/11",
-        "content": "Conteúdo para 28/11: Últimas revisões antes do exame.",
-        "image": "./imagens/imagem8.png"
+        "date": "04/11",
+        "content": "Calculadora.",
+        "image": "./imagens/AULA8.png"
     }
 }
